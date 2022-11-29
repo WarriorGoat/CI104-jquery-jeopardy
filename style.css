@@ -1,0 +1,140 @@
+div{
+    margin: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    color: gold;
+    text-align: center;
+}
+
+#category{
+    color: rgb(224, 224, 189);
+}
+
+#question{
+    color: rgb(224, 224, 189);
+    font-style: italic;
+}
+
+#button-1 {
+    grid-area: button-1;
+}
+
+#button-2 {
+    grid-area: button-2;
+}
+
+#button-3 {
+    grid-area: button-3;
+}
+
+#button-4 {
+    grid-area: button-4;
+}
+
+#button-5 {
+    grid-area: button-5;
+}
+
+#button-6 {
+    grid-area: button-6;
+}
+
+#button-7 {
+    grid-area: button-7;
+}
+
+#button-8 {
+    grid-area: button-8;
+}
+
+#button-9 {
+    grid-area: button-9;
+}
+
+#button-10 {
+    grid-area: button-10;
+}
+
+#button-11 {
+    grid-area: button-11;
+}
+
+#button-12 {
+    grid-area: button-12;
+}
+
+#button-13 {
+    grid-area: button-13;
+}
+
+#button-14 {
+    grid-area: button-14;
+}
+
+#button-15 {
+    grid-area: button-15;
+}
+
+#button-16 {
+    grid-area: button-16;
+}
+
+#button-17 {
+    grid-area: button-17;
+}
+
+#button-18 {
+    grid-area: button-18;
+}
+
+#button-19 {
+    grid-area: button-19;
+}
+
+#button-20 {
+    grid-area: button-20;
+}
+
+#button-21 {
+    grid-area: button-21;
+}
+
+#button-22 {
+    grid-area: button-22;
+}
+
+
+#button-23 {
+    grid-area: button-23;
+}
+
+#button-24 {
+    grid-area: button-24;
+}
+
+#button-25 {
+    grid-area: button-25;
+}
+
+
+
+
+#gridParent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "button-1 button-2 button-3 button-4 button-5"
+    "button-6 button-7 button-8 button-9 button-10"
+    "button-11 button-12 button-13 button-14 button-15"
+    "button-16 button-17 button-18 button-19 button-20"
+    "button-21 button-22 button-23 button-24 button-25";
+}
+
+
+
+#button{
+    background-color: royalblue;
+    color: gold;
+    text-align: center;
+}
