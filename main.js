@@ -115,7 +115,7 @@ function alert2(){
 }
 
 function alert3(){
-    alert(`Sorry, your answer is not correct!! You lost $${bet} from your score.  Your new total is $${score}`);
+    alert(`Sorry, your answer is not correct!!  The correct answer was ${thisTurn.answer}. You lost $${bet} from your score.  Your new total is $${score}`);
 }
 
 function reset(){
