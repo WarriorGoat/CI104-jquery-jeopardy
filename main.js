@@ -1,9 +1,9 @@
 //Set Initial Global Variables
-let groupedData = []
-let questionPool = []
-let thisTurn = {}
-let bet = 0
-let score = 0
+let groupedData = [];
+let questionPool = [];
+let thisTurn = {};
+let bet = 0;
+let score = 0;
 
 //extract question data from json file
 let readJeopardyData = async() => {
@@ -12,7 +12,7 @@ let readJeopardyData = async() => {
     groupedData = _.groupBy(data,'value');
 }
 
-readJeopardyData()
+readJeopardyData();
 
 //Set initial global quesryselectors
 let button100 = document.querySelectorAll(".btn-100");
@@ -35,8 +35,7 @@ button100[i].addEventListener("click", function(){
         bet = 100;
         retrieveQuestion(groupedData.$100);
         changeButtonStatus(button100[i]);
-        }
-        else{alert1();}
+        }else{alert1();}
     })}
 
 
@@ -47,8 +46,7 @@ for(let i = 0; i<button200.length; i++){
         bet = 200;
         retrieveQuestion(groupedData.$200);
         changeButtonStatus(button200[i]);
-        }
-        else{alert1();}
+        }else{alert1();}
         
     })}
 
@@ -59,8 +57,7 @@ for(let i = 0; i<button400.length; i++){
         bet = 400;
         retrieveQuestion(groupedData.$400);
         changeButtonStatus(button400[i]);
-        }
-        else{alert1();}
+        }else{alert1();}
     })}
        
 //$600 Bet
@@ -70,8 +67,7 @@ for(let i = 0; i<button600.length; i++){
         bet = 600;
         retrieveQuestion(groupedData.$600);
         changeButtonStatus(button600[i]);
-        }
-        else{alert1();}
+        }else{alert1();}
     })}
 
 //$800 Bet
@@ -81,8 +77,7 @@ for(let i = 0; i<button800.length; i++){
         bet = 800;
         retrieveQuestion(groupedData.$800);
         changeButtonStatus(button800[i]);
-        }
-        else{alert1();}
+        }else{alert1();}
     })}
 
 
